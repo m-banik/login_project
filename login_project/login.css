@@ -27,7 +27,9 @@ body {
 /* Change of the header text color */
 #login-header {
   color: #fff;
-} 
+  /* Zmieniam styl tekstu na pochylony */
+  font-style: italic;
+}
 
 #login-error-msg-holder {
   width: 100%;
@@ -44,6 +46,8 @@ body {
   padding: 5px;
   font-size: 12px;
   font-weight: bold;
+  /* Zaokrąglam obramowanie elementu HTML */
+  border-radius: 8px;
   color: #8a0000;
   border: 1px solid #8a0000;
   background-color: #e58f8f;
@@ -72,6 +76,16 @@ body {
   border-radius: 3px;
   outline: none;
   padding: 0px 0px 5px 5px;
+  /* Usuwam ramę węzła */
+  border: none;
+  /* Opóźniam zmiany dokonywane na elemencie (jego widoku) */
+  transition: 0.2s;
+}
+
+.login-form-field:hover,
+.login-form-field:focus {
+  /* Dodaję delikatny biały cień do elementu, kiedy jest aktywny lub kursor jest nad nim*/
+  box-shadow: 0 0 0 1px#fff;
 }
 
 #login-form-submit {
@@ -84,4 +98,12 @@ body {
   background-color: #3a3a3a;
   cursor: pointer;
   outline: none;
+  /* Opóźniam zmiany dokonywane na elemencie (jego widoku) */
+  transition: 0.5s;
+}
+
+/* Pociemniam kolory elementu, kiedy kursor jest nad nim */
+#login-form-submit:hover {
+  color: #ddd;
+  background-color: #181818;
 }

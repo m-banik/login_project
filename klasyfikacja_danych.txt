@@ -23,6 +23,14 @@ Nazwa stanowiska
 Zawód
 Historia choroby
 
+===
+
+Link do repozytorium:
+https://github.com/m-banik/login_project
+
+Uwaga#1: Hasła i usernames to teraz para admin/admin.
+
+Uwaga#2: Wbrew nazwie repo zawiera oba projekty i dowód utworzenia klucza uwierzytelniający Google.
 
 
 

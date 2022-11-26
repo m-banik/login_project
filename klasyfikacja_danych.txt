@@ -1,0 +1,45 @@
+Zarządzanie tożsamością i dostępem do zasobów - 26.11.2022.
+
+Lista 1. Zadanie 1.
+
+Grupy:
+• Inne niż biznesowe - Imię i nazwisko, Zawód
+• Wewnętrzne - ID Pracownika
+• Publiczne - Nazwa stanowiska
+• Ogólne - 
+• Poufne - Historia choroby, Dane biometryczne np. odcisk palca, Numer karty debetowej
+
+Dane:
+
+I Grupa danych:
+Imię i nazwisko
+ID Pracownika
+Dane biometryczne np. odcisk palca
+Numer karty debetowej
+
+II Grupa danych:
+Imię i nazwisko
+Nazwa stanowiska
+Zawód
+Historia choroby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
